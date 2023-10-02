@@ -38,7 +38,7 @@ pip3 install gpt4all-code-review --upgrade
 You can run the program from the command line with various options:
 
 ```bash
-gpt4all_code_review --file <file_path>
+gpt4all_tone --file <file_path>
 ```
 
 ### Options
@@ -55,13 +55,13 @@ gpt4all_code_review --file <file_path>
 To analyze a single file:
 
 ```bash
-gpt4all_code_review --file=./path/to/yourfile.py
+gpt4all_tone --file=./path/to/yourfile.py
 ```
 
 To analyze all files in the current directory:
 
 ```bash
-gpt4all_code_review --all
+gpt4all_tone --all
 ```
 
 ## Output Formats
